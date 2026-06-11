@@ -1,1 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f6fa;
+    font-family: "맑은 고딕", sans-serif;
+    text-align: center;
+}
 
+.box {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+
+    background-color: #e8f0ff;
+
+    border-radius: 20px;
+}
+
+h1 {
+    color: #3677eb;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 2;
+    color: #343a40;
+}
+
+.author {
+    margin-top: 30px;
+    color: #888;
+    font-style: italic;
+    font-size: 18px;
+}
