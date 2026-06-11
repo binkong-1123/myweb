@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'Yeongwol';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2507-2@1.0/YeongwolTTF-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #f2f6fa;
-    font-family: "맑은 고딕", sans-serif;
+    font-family: 'Yeongwol', sans-serif;
     text-align: center;
 }
 
@@ -12,9 +19,17 @@ body {
     margin: 50px auto;
     padding: 40px;
 
-    background-color: #e8f0ff;
+    background: linear-gradient(
+        to bottom,
+        #b7eaff 0%,
+        #ffdce8 100%
+    );
 
     border-radius: 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
